@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Pf-log
+Bundle-SymbolicName: com.byw.platform.log
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.byw.platform.log.Activator
+Bundle-Vendor: byw
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Export-Package: com.byw.platform.log.utils,
+ org.slf4j
+Bundle-ClassPath: .,
+ lib/slf4j-api-1.6.4.jar,
+ lib/logback-classic-1.0.3.jar,
+ lib/logback-core-1.0.3.jar
