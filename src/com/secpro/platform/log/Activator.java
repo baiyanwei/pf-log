@@ -1,4 +1,4 @@
-package com.byw.platform.log;
+package com.secpro.platform.log;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
@@ -8,7 +8,7 @@ import ch.qos.logback.classic.LoggerContext;
 import ch.qos.logback.classic.joran.JoranConfigurator;
 import ch.qos.logback.core.joran.spi.JoranException;
 
-import com.byw.platform.log.utils.PlatformLogger;
+import com.secpro.platform.log.utils.PlatformLogger;
 
 /**
  * @author Martin Bai. Logging bundle just provide logging function for other

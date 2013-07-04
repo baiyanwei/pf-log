@@ -7,7 +7,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.byw.platform.log.utils.PlatformLogger;
+import com.secpro.platform.log.utils.PlatformLogger;
 
 public class PlatformLoggerTest {
 	PlatformLogger logger = null;
@@ -52,7 +52,7 @@ public class PlatformLoggerTest {
 				public void run() {
 					while (true) {
 						try {
-							this.sleep(1000L);
+							sleep(1000L);
 						} catch (InterruptedException e) {
 							// TODO Auto-generated catch block
 							e.printStackTrace();

@@ -1,4 +1,4 @@
-package com.byw.platform.log.utils;
+package com.secpro.platform.log.utils;
 
 import java.io.IOException;
 import java.io.InputStream;
