@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Pf-log
+Bundle-Name: pf-log
 Bundle-SymbolicName: com.secpro.platform.log
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: com.secpro.platform.log.Activator
