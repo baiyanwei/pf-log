@@ -1,4 +1,4 @@
-package com.byw.platfrom.log.test;
+package com.secpro.platfrom.log.test;
 
 import org.junit.After;
 import org.junit.AfterClass;
