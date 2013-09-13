@@ -55,7 +55,7 @@ public class Activator implements BundleActivator {
 	 */
 	private void initConfigurationForLogging(String logConfigruationPath) throws Exception {
 		if (logConfigruationPath == null || logConfigruationPath.trim().equals("")) {
-			throw new Exception("invaild logging configuration path.");
+			throw new Exception("invalid logging configuration path.");
 		}
 		try {
 			LoggerContext logContext = (LoggerContext) LoggerFactory.getILoggerFactory();
